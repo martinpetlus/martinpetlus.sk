@@ -1,6 +1,7 @@
 import { Inter } from 'next/font/google';
 import Head from 'next/head';
 import Image from 'next/image';
+import Script from 'next/script';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import favicon from '../../public/favicon.ico';
 import logo from '../../public/logo.svg';
@@ -65,7 +66,7 @@ export default function Home() {
           </div>
           <div className="py-2 text-center">
             <span className={inter.className}>
-              © {new Date().getFullYear()}
+              © <Script id="full-year">{'new Date().getFullYear()'}</Script>
             </span>
           </div>
         </div>
