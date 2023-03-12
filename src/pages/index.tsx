@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google';
 import Head from 'next/head';
 import Image from 'next/image';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import favicon from '../../public/favicon.ico';
 import logo from '../../public/logo.svg';
 
 const IconSize = 40;
@@ -15,7 +16,7 @@ export default function Home() {
         <title>Martin Petluš</title>
         <meta name="description" content="Martin Petluš's personal website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={favicon.src} />
       </Head>
       <main>
         <div className="flex h-screen flex-col bg-zinc-900 text-red-500">
