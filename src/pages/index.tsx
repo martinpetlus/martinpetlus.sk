@@ -1,7 +1,8 @@
-import Head from 'next/head';
 import { Inter } from 'next/font/google';
+import Head from 'next/head';
 import Image from 'next/image';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import logo from '../../public/logo.svg';
 
 const IconSize = 40;
 
@@ -51,7 +52,7 @@ export default function Home() {
                   className="mx-auto"
                 >
                   <Image
-                    src="/logo.svg"
+                    src={logo}
                     alt="Sleduj Byty"
                     width={IconSize}
                     height={IconSize}
