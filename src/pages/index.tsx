@@ -66,7 +66,12 @@ export default function Home() {
           </div>
           <div className="py-2 text-center">
             <span className={inter.className}>
-              © <Script id="full-year">{'new Date().getFullYear()'}</Script>
+              © <span id="year" />
+              <Script id="get-year">
+                {
+                  'document.getElementById("year").innerText = new Date().getFullYear()'
+                }
+              </Script>
             </span>
           </div>
         </div>
