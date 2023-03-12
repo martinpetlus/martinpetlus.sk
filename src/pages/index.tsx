@@ -26,7 +26,7 @@ export default function Home() {
               <h1 className="mb-4 text-4xl font-bold">
                 <span className={inter.className}>Martin Petluš</span>
               </h1>
-              <h2 className="mb-6 text-center text-2xl">
+              <h2 className="mb-6 text-center text-xl">
                 <span className={inter.className}>Software Engineer</span>
               </h2>
               <p className="grid grid-cols-4">
@@ -35,30 +35,21 @@ export default function Home() {
                   title="My GitHub profile"
                   className="mx-auto"
                 >
-                  <FaGithub
-                    size={IconSize}
-                    className="text-red-500 hover:text-white"
-                  />
+                  <FaGithub size={IconSize} className="text-red-500" />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/martinpetlus/"
                   title="My LinkedIn profile"
                   className="mx-auto"
                 >
-                  <FaLinkedin
-                    size={IconSize}
-                    className="text-red-500 hover:text-white"
-                  />
+                  <FaLinkedin size={IconSize} className="text-red-500" />
                 </a>
                 <a
                   href="https://twitter.com/martinpetlus"
                   title="My Twitter profile"
                   className="mx-auto"
                 >
-                  <FaTwitter
-                    size={IconSize}
-                    className="text-red-500 hover:text-white"
-                  />
+                  <FaTwitter size={IconSize} className="text-red-500" />
                 </a>
                 <a
                   href="https://sledujbyty.sk/"
