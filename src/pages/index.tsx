@@ -35,21 +35,30 @@ export default function Home() {
                   title="My GitHub profile"
                   className="mx-auto"
                 >
-                  <FaGithub className="text-red-500" size={IconSize} />
+                  <FaGithub
+                    size={IconSize}
+                    className="text-red-500 hover:text-white"
+                  />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/martinpetlus/"
                   title="My LinkedIn profile"
                   className="mx-auto"
                 >
-                  <FaLinkedin className="text-red-500" size={IconSize} />
+                  <FaLinkedin
+                    size={IconSize}
+                    className="text-red-500 hover:text-white"
+                  />
                 </a>
                 <a
                   href="https://twitter.com/martinpetlus"
                   title="My Twitter profile"
                   className="mx-auto"
                 >
-                  <FaTwitter className="text-red-500" size={IconSize} />
+                  <FaTwitter
+                    size={IconSize}
+                    className="text-red-500 hover:text-white"
+                  />
                 </a>
                 <a
                   href="https://sledujbyty.sk/"
