@@ -26,6 +26,9 @@ export default function Home() {
               <h1 className="mb-4 text-4xl font-bold">
                 <span className={inter.className}>Martin Petluš</span>
               </h1>
+              <h2 className="mb-6 text-center text-2xl">
+                <span className={inter.className}>Software Engineer</span>
+              </h2>
               <p className="grid grid-cols-4">
                 <a
                   href="https://github.com/martinpetlus"
