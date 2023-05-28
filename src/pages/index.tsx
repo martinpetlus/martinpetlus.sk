@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href={favicon.src} />
       </Head>
       <main>
-        <div className="flex h-screen flex-col bg-zinc-900 text-red-500">
+        <div className="flex h-screen flex-col bg-zinc-900 text-rose-600">
           <div className="flex flex-grow">
             <div className="m-auto">
               <h1 className="mb-4 text-4xl font-bold">
@@ -35,21 +35,21 @@ export default function Home() {
                   title="My GitHub profile"
                   className="mx-auto"
                 >
-                  <FaGithub size={IconSize} className="text-red-500" />
+                  <FaGithub size={IconSize} className="text-rose-600" />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/martinpetlus/"
                   title="My LinkedIn profile"
                   className="mx-auto"
                 >
-                  <FaLinkedin size={IconSize} className="text-red-500" />
+                  <FaLinkedin size={IconSize} className="text-rose-600" />
                 </a>
                 <a
                   href="https://twitter.com/martinpetlus"
                   title="My Twitter profile"
                   className="mx-auto"
                 >
-                  <FaTwitter size={IconSize} className="text-red-500" />
+                  <FaTwitter size={IconSize} className="text-rose-600" />
                 </a>
                 <a
                   href="https://sledujbyty.sk/"
